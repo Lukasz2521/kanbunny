@@ -1,4 +1,5 @@
 import React from 'react';
+import HeaderContainer from '../../components/header/header.container';
 
 export class Board extends React.Component {
     constructor(props) {
@@ -7,7 +8,7 @@ export class Board extends React.Component {
 
     render() {
         return (
-            <div>Board!</div>
+            <HeaderContainer />
         );
     }
 }
